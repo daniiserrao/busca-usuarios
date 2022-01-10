@@ -1,0 +1,57 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 360px;
+    max-width: 1920px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+.busca {
+    display: flex;
+    height: 35px;
+    width: 100%;
+}
+
+.digite {
+    width: 100%;
+    margin-right: 5px;
+    border: none;
+    border-bottom: 1px solid black ;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.flex-align-top {
+    align-items: flex-start;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.panel {
+    width: 50%;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
